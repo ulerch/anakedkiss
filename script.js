@@ -27,7 +27,7 @@ function onStart() {
 }
 
 var player;
-var tracks = [ '473053026', '455480868', '451228755', '635502306' ];
+var tracks = [ '635502306', '473053026', '455480868', '451228755' ];
 var trackPlaying;
 
 function initPlayer() {
@@ -55,7 +55,7 @@ function initPlayer() {
 function jPlayerPlayEventHandler() {
 	$("#player .button").css('background-position','-100px -50px');
 	$("#play-button i").removeClass("fa-play").addClass("fa-pause");
-	
+
 }
 
 function jPlayerPauseEventHandler() {
@@ -73,7 +73,7 @@ function playerButtonPressed() {
 function playTrack() {
 	var trackId = tracks[ player.slideCurrent ];
 	if ( trackPlaying == undefined || trackId !== trackPlaying ) $( '#jplayer' ).jPlayer( 'setMedia', { 'mp3': 'https://api.soundcloud.com/tracks/' + trackId + '/stream' + '?client_id=c4fd5fec1802b582fc806f6df899b7b3' });
-	trackPlaying = trackId;	
+	trackPlaying = trackId;
 	$( '#jplayer' ).jPlayer( 'play' );
 }
 

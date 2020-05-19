@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-div.section {
+section {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -102,7 +102,7 @@ div.section {
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
-	background: #FFF !important;	
+	background: #FFF !important;
 }
 
 .fp-controlArrow.fp-next {
@@ -118,7 +118,7 @@ div.section {
 #player {
 	position: fixed;
 	left: 25px;
-	bottom: 25px; 
+	bottom: 25px;
 	height: 300px;
 	width: 300px;
 }
@@ -134,7 +134,7 @@ div.section {
 	margin: 0 auto;
 	border-radius: 50%;
 	overflow: hidden;
-	pointer-events: none;	
+	pointer-events: none;
 }
 
 #player .overview {
@@ -143,7 +143,7 @@ div.section {
 	top: 0;
 	width: 100%;
 	margin: 0;
-	padding: 0; 
+	padding: 0;
 	list-style: none;
 }
 
@@ -152,7 +152,7 @@ div.section {
 	height: 300px;
 	width: 300px;
 	float: left;
-	
+
 }
 
 #player .overlay {
@@ -175,7 +175,7 @@ div.section {
 	cursor: pointer;
 	touch-action: none;
 	-ms-touch-action: none;
-	z-index: 200; 
+	z-index: 200;
 }
 
 #player .dot {
@@ -211,12 +211,12 @@ div.section {
 	display: none;
 	position: fixed;
 	left: 30px;
-	bottom: 25px; 
+	bottom: 25px;
 	height: 50px;
 	width: 50px;
 	font-size: 50px;
 	color: #FFF;
 	cursor: pointer;
 	opacity: 0.25;
-	z-index: 300;	
+	z-index: 300;
 }
